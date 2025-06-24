@@ -1,6 +1,6 @@
 async function getWeather() {
   const city = document.getElementById("cityInput").value.trim();
-  const apiKey = 'https://google-search74.p.rapidapi.com/?query=Nike&limit=10&related_keywords=true'; // 🔑 Replace with your actual API key
+  const apiKey = 'https://www.7timer.info/bin/astro.php?lon=113.2&lat=23.1&ac=0&unit=metric&output=json&tzshift=0'; // 🔑 Replace with your actual API key
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(city)}&appid=${apiKey}&units=metric`;
 
   try {
